@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SwiftAlgorithmTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SwiftAlgorithms.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>193376311C6A5A3B0070F53F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>19BCA13D1C6A561600B4E182</key>
 		<dict>
 			<key>primary</key>
