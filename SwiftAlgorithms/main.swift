@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
 
+var a = [5,4,6,8,2,3,7]

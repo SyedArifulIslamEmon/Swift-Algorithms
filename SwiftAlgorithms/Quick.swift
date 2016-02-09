@@ -14,36 +14,33 @@ public struct QuickSort{
     }
     
     private static func partition<T: Comparable>(inout a: [T], lo: Int, hi: Int) -> Int{
-        var (i, j) = (lo, hi + 1)
+        let pivot = a[(lo + hi) / 2]
+        var (i, j) = (lo - 1, hi + 1)
         while (true){
-            while a[++i] < a[lo]{
-                if i == hi{
-                    break
-                }
-            }
+            repeat{
+                i++
+            } while a[i] < pivot
             
-            while a[lo] < a[--j]{
-                if j == lo{
-                    break
-                }
-            }
+            repeat{
+                j--
+            } while pivot < a[j]
             
-            if i >= j {
-                break
+            if i >= j{
+                return j
             }
             
             swap(&a[j], &a[i])
         }
-        swap(&a[j], &a[lo])
-        return j
     }
+    
+    
     
     private static func sort<T: Comparable>(inout a: [T], lo: Int, hi: Int){
         guard lo < hi else {
             return
         }
         let j = partition(&a, lo: lo, hi: hi)
-        sort(&a, lo: lo, hi: j - 1)
+        sort(&a, lo: lo, hi: j)
         sort(&a, lo: j + 1, hi: hi)
     }
 }
