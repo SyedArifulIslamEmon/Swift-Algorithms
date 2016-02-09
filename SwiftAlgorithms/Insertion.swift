@@ -9,8 +9,7 @@
 import Foundation
 
 public struct Insertion {
-    public static func sort<T: Comparable>(var a: [T]) -> [T]{
-        guard a.count > 1 else { return a }
+    public static func sort<T: Comparable>(inout a: [T]){
         for i in 0..<a.count{
             var j = i
             while j > 0{
@@ -20,6 +19,5 @@ public struct Insertion {
                 --j
             }
         }
-        return [T]()
     }
 }

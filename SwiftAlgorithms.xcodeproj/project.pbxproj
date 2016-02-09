@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1933762B1C6A58460070F53F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933762A1C6A58460070F53F /* Utils.swift */; };
-		193376351C6A5A3B0070F53F /* SwiftAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376341C6A5A3B0070F53F /* SwiftAlgorithmTests.swift */; };
-		1933763A1C6A5A490070F53F /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
-		1933763B1C6A5B9D0070F53F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933762A1C6A58460070F53F /* Utils.swift */; };
 		1933763D1C6A5EC50070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
-		1933763E1C6A5EDF0070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
+		193376421C6A63810070F53F /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376411C6A63810070F53F /* Quick.swift */; };
+		1933764B1C6A66D10070F53F /* SwiftAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933764A1C6A66D10070F53F /* SwiftAlgorithmsTests.swift */; };
+		193376501C6A66E80070F53F /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
+		193376511C6A66EB0070F53F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933762A1C6A58460070F53F /* Utils.swift */; };
+		193376521C6A66EE0070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
+		193376531C6A66F10070F53F /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376411C6A63810070F53F /* Quick.swift */; };
 		19BCA1421C6A561600B4E182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1411C6A561600B4E182 /* main.swift */; };
 		19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
 /* End PBXBuildFile section */
@@ -31,17 +33,18 @@
 
 /* Begin PBXFileReference section */
 		1933762A1C6A58460070F53F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		193376321C6A5A3B0070F53F /* SwiftAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		193376341C6A5A3B0070F53F /* SwiftAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmTests.swift; sourceTree = "<group>"; };
-		193376361C6A5A3B0070F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1933763C1C6A5EC50070F53F /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		193376411C6A63810070F53F /* Quick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
+		193376481C6A66D10070F53F /* SwiftAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1933764A1C6A66D10070F53F /* SwiftAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmsTests.swift; sourceTree = "<group>"; };
+		1933764C1C6A66D10070F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19BCA13E1C6A561600B4E182 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BCA1411C6A561600B4E182 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		19BCA1481C6A563C00B4E182 /* Insertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insertion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1933762F1C6A5A3B0070F53F /* Frameworks */ = {
+		193376451C6A66D10070F53F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,20 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		193376331C6A5A3B0070F53F /* SwiftAlgorithmTests */ = {
+		193376491C6A66D10070F53F /* SwiftAlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				193376341C6A5A3B0070F53F /* SwiftAlgorithmTests.swift */,
-				193376361C6A5A3B0070F53F /* Info.plist */,
+				1933764A1C6A66D10070F53F /* SwiftAlgorithmsTests.swift */,
+				1933764C1C6A66D10070F53F /* Info.plist */,
 			);
-			path = SwiftAlgorithmTests;
+			path = SwiftAlgorithmsTests;
 			sourceTree = "<group>";
 		};
 		19BCA1351C6A561600B4E182 = {
 			isa = PBXGroup;
 			children = (
 				19BCA1401C6A561600B4E182 /* SwiftAlgorithms */,
-				193376331C6A5A3B0070F53F /* SwiftAlgorithmTests */,
+				193376491C6A66D10070F53F /* SwiftAlgorithmsTests */,
 				19BCA13F1C6A561600B4E182 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				19BCA13E1C6A561600B4E182 /* SwiftAlgorithms */,
-				193376321C6A5A3B0070F53F /* SwiftAlgorithmTests.xctest */,
+				193376481C6A66D10070F53F /* SwiftAlgorithmsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +95,7 @@
 				19BCA1481C6A563C00B4E182 /* Insertion.swift */,
 				1933762A1C6A58460070F53F /* Utils.swift */,
 				1933763C1C6A5EC50070F53F /* Selection.swift */,
+				193376411C6A63810070F53F /* Quick.swift */,
 			);
 			path = SwiftAlgorithms;
 			sourceTree = "<group>";
@@ -99,21 +103,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		193376311C6A5A3B0070F53F /* SwiftAlgorithmTests */ = {
+		193376471C6A66D10070F53F /* SwiftAlgorithmsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 193376371C6A5A3B0070F53F /* Build configuration list for PBXNativeTarget "SwiftAlgorithmTests" */;
+			buildConfigurationList = 1933764D1C6A66D10070F53F /* Build configuration list for PBXNativeTarget "SwiftAlgorithmsTests" */;
 			buildPhases = (
-				1933762E1C6A5A3B0070F53F /* Sources */,
-				1933762F1C6A5A3B0070F53F /* Frameworks */,
-				193376301C6A5A3B0070F53F /* Resources */,
+				193376441C6A66D10070F53F /* Sources */,
+				193376451C6A66D10070F53F /* Frameworks */,
+				193376461C6A66D10070F53F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftAlgorithmTests;
-			productName = SwiftAlgorithmTests;
-			productReference = 193376321C6A5A3B0070F53F /* SwiftAlgorithmTests.xctest */;
+			name = SwiftAlgorithmsTests;
+			productName = SwiftAlgorithmsTests;
+			productReference = 193376481C6A66D10070F53F /* SwiftAlgorithmsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		19BCA13D1C6A561600B4E182 /* SwiftAlgorithms */ = {
@@ -143,7 +147,7 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Khoi Lai";
 				TargetAttributes = {
-					193376311C6A5A3B0070F53F = {
+					193376471C6A66D10070F53F = {
 						CreatedOnToolsVersion = 7.2;
 					};
 					19BCA13D1C6A561600B4E182 = {
@@ -164,13 +168,13 @@
 			projectRoot = "";
 			targets = (
 				19BCA13D1C6A561600B4E182 /* SwiftAlgorithms */,
-				193376311C6A5A3B0070F53F /* SwiftAlgorithmTests */,
+				193376471C6A66D10070F53F /* SwiftAlgorithmsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		193376301C6A5A3B0070F53F /* Resources */ = {
+		193376461C6A66D10070F53F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,14 +184,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1933762E1C6A5A3B0070F53F /* Sources */ = {
+		193376441C6A66D10070F53F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1933763E1C6A5EDF0070F53F /* Selection.swift in Sources */,
-				193376351C6A5A3B0070F53F /* SwiftAlgorithmTests.swift in Sources */,
-				1933763A1C6A5A490070F53F /* Insertion.swift in Sources */,
-				1933763B1C6A5B9D0070F53F /* Utils.swift in Sources */,
+				193376521C6A66EE0070F53F /* Selection.swift in Sources */,
+				1933764B1C6A66D10070F53F /* SwiftAlgorithmsTests.swift in Sources */,
+				193376531C6A66F10070F53F /* Quick.swift in Sources */,
+				193376501C6A66E80070F53F /* Insertion.swift in Sources */,
+				193376511C6A66EB0070F53F /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +202,7 @@
 			files = (
 				1933763D1C6A5EC50070F53F /* Selection.swift in Sources */,
 				19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */,
+				193376421C6A63810070F53F /* Quick.swift in Sources */,
 				19BCA1421C6A561600B4E182 /* main.swift in Sources */,
 				1933762B1C6A58460070F53F /* Utils.swift in Sources */,
 			);
@@ -205,24 +211,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		193376381C6A5A3B0070F53F /* Debug */ = {
+		1933764E1C6A66D10070F53F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SwiftAlgorithmTests/Info.plist;
+				INFOPLIST_FILE = SwiftAlgorithmsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.SwiftAlgorithmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.SwiftAlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		193376391C6A5A3B0070F53F /* Release */ = {
+		1933764F1C6A66D10070F53F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SwiftAlgorithmTests/Info.plist;
+				INFOPLIST_FILE = SwiftAlgorithmsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.SwiftAlgorithmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.SwiftAlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -324,11 +330,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		193376371C6A5A3B0070F53F /* Build configuration list for PBXNativeTarget "SwiftAlgorithmTests" */ = {
+		1933764D1C6A66D10070F53F /* Build configuration list for PBXNativeTarget "SwiftAlgorithmsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				193376381C6A5A3B0070F53F /* Debug */,
-				193376391C6A5A3B0070F53F /* Release */,
+				1933764E1C6A66D10070F53F /* Debug */,
+				1933764F1C6A66D10070F53F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
