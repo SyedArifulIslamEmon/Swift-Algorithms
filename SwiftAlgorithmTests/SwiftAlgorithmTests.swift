@@ -21,11 +21,21 @@ class SwiftAlgorithmTests: XCTestCase {
         super.tearDown()
     }
     
-    func selectionSort() {
+    func insertionSort() {
         let numberOfIterations = 100
         for _ in 1...numberOfIterations {
             let a = randomArray(Int(arc4random_uniform(100)) + 1)
             let s = Insertion.sort(a)
+            XCTAssertEqual(a.count, s.count)
+            XCTAssert(Utils.isArraySorted(s))
+        }
+    }
+    
+    func selectionSort() {
+        let numberOfIterations = 100
+        for _ in 1...numberOfIterations {
+            let a = randomArray(Int(arc4random_uniform(100)) + 1)
+            let s = Selection.sort(a)
             XCTAssertEqual(a.count, s.count)
             XCTAssert(Utils.isArraySorted(s))
         }

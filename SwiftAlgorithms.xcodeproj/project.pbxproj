@@ -11,6 +11,8 @@
 		193376351C6A5A3B0070F53F /* SwiftAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376341C6A5A3B0070F53F /* SwiftAlgorithmTests.swift */; };
 		1933763A1C6A5A490070F53F /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
 		1933763B1C6A5B9D0070F53F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933762A1C6A58460070F53F /* Utils.swift */; };
+		1933763D1C6A5EC50070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
+		1933763E1C6A5EDF0070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
 		19BCA1421C6A561600B4E182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1411C6A561600B4E182 /* main.swift */; };
 		19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,7 @@
 		193376321C6A5A3B0070F53F /* SwiftAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		193376341C6A5A3B0070F53F /* SwiftAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmTests.swift; sourceTree = "<group>"; };
 		193376361C6A5A3B0070F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1933763C1C6A5EC50070F53F /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		19BCA13E1C6A561600B4E182 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BCA1411C6A561600B4E182 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		19BCA1481C6A563C00B4E182 /* Insertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insertion.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				19BCA1411C6A561600B4E182 /* main.swift */,
 				19BCA1481C6A563C00B4E182 /* Insertion.swift */,
 				1933762A1C6A58460070F53F /* Utils.swift */,
+				1933763C1C6A5EC50070F53F /* Selection.swift */,
 			);
 			path = SwiftAlgorithms;
 			sourceTree = "<group>";
@@ -180,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1933763E1C6A5EDF0070F53F /* Selection.swift in Sources */,
 				193376351C6A5A3B0070F53F /* SwiftAlgorithmTests.swift in Sources */,
 				1933763A1C6A5A490070F53F /* Insertion.swift in Sources */,
 				1933763B1C6A5B9D0070F53F /* Utils.swift in Sources */,
@@ -190,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1933763D1C6A5EC50070F53F /* Selection.swift in Sources */,
 				19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */,
 				19BCA1421C6A561600B4E182 /* main.swift in Sources */,
 				1933762B1C6A58460070F53F /* Utils.swift in Sources */,

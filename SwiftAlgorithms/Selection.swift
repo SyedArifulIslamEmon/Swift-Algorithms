@@ -1,5 +1,5 @@
 //
-//  SelectionSort.swift
+//  Selection.swift
 //  SwiftAlgorithms
 //
 //  Created by baga on 2/10/16.
@@ -8,18 +8,18 @@
 
 import Foundation
 
-public struct Insertion {
+public struct Selection{
     public static func sort<T: Comparable>(var a: [T]) -> [T]{
         guard a.count > 1 else { return a }
         for i in 0..<a.count{
-            var j = i
-            while j > 0{
-                if a[j] < a[j - 1]{
-                    swap(&a[j], &a[j - 1])
+            var min = i;
+            for j in (i+1)..<a.count{
+                if a[j] < a[min]{
+                    min = j
                 }
-                --j
             }
+            swap(&a[min], &a[i])
         }
-        return [T]()
+        return a
     }
 }

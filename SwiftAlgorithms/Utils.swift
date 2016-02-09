@@ -9,9 +9,9 @@
 import Foundation
 
 public struct Utils {
-    public static func isArraySorted<T: Comparable>(array: [T]) -> Bool{
-        for i in 1..<array.count{
-            if !(array[i - 1] < array[i]){
+    public static func isArraySorted<T: Comparable>(a: [T]) -> Bool{
+        for i in 1..<a.count{
+            if !(a[i - 1] < a[i]){
                 return false
             }
         }
