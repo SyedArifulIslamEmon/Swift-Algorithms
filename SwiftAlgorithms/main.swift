@@ -9,4 +9,11 @@
 import Foundation
 
 
-var a = [5,4,6,8,2,3,7]
+var array = [Int]()
+while let a = readLine(stripNewline: true){
+    array.append(Int(a)!)
+}
+
+QuickSort3Ways.sort(&array)
+
+

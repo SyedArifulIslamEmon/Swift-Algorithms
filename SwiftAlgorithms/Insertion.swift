@@ -14,7 +14,7 @@ public struct Insertion {
             var j = i
             while j > 0{
                 if a[j] < a[j - 1]{
-                    swap(&a[j], &a[j - 1])
+                    Utils.exchange(&a, j, j - 1)
                 }
                 --j
             }

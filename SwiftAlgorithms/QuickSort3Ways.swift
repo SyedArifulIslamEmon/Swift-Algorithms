@@ -22,10 +22,10 @@ public struct QuickSort3Ways {
         let v = a[lo]
         while (i <= gt){
             if a[i] < v {
-                swap(&a[i++], &a[lt++])
+                Utils.exchange(&a, i++, lt++)
             }
             else if a[i] > v{
-                swap(&a[i], &a[gt--])
+                Utils.exchange(&a, i, gt--)
             }
             else {
                 i++

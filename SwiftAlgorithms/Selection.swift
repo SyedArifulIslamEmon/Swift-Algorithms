@@ -17,7 +17,7 @@ public struct Selection{
                     min = j
                 }
             }
-            swap(&a[min], &a[i])
+            Utils.exchange(&a, min, i)
         }
     }
 }

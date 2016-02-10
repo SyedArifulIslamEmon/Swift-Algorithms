@@ -18,4 +18,9 @@ public struct Utils {
         return true
     }
     
+    public static func exchange<T>(inout a: [T], _ i: Int, _ j: Int) {
+        if i != j {
+            swap(&a[i], &a[j])
+        }
+    }
 }

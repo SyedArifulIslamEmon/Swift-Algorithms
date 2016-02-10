@@ -32,8 +32,7 @@ public struct QuickSort{
             if i >= j{
                 return j
             }
-            
-            swap(&a[j], &a[i])
+            Utils.exchange(&a, j, i)
         }
     }
     
