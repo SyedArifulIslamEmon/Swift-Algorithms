@@ -14,6 +14,9 @@ import Foundation
 public struct QuickSort3Ways {
     
     private static func sort<T: Comparable>(inout a: [T], lo: Int, hi: Int){
+        guard lo < hi else {
+            return
+        }
         var (lt, gt) = (lo, hi)
         var i = lt
         let v = a[lo]
