@@ -8,7 +8,11 @@
 
 import Foundation
 
+/**
+ *  Original Quicksort
+ */
 public struct QuickSort{
+    
     public static func sort<T: Comparable>(inout a: [T]){
         return sort(&a, lo: 0, hi: a.count - 1)
     }

@@ -54,6 +54,17 @@ class SwiftAlgorithmsTests: XCTestCase {
         }
     }
     
+    func quickSort3Ways(){
+        for _ in 1...numberOfIterationsPerSort {
+            var a = randomArray(Int(arc4random_uniform(100)) + 1)
+            let count = a.count
+            QuickSort3Ways.sort(&a)
+            XCTAssertEqual(a.count, count)
+            XCTAssert(Utils.isArraySorted(a))
+            
+        }
+    }
+    
     private func randomArray(size: Int) -> [Int] {
         var a = [Int]()
         for _ in 1...size {

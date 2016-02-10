@@ -15,6 +15,8 @@
 		193376511C6A66EB0070F53F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933762A1C6A58460070F53F /* Utils.swift */; };
 		193376521C6A66EE0070F53F /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933763C1C6A5EC50070F53F /* Selection.swift */; };
 		193376531C6A66F10070F53F /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376411C6A63810070F53F /* Quick.swift */; };
+		193376571C6B88610070F53F /* QuickSort3Ways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376561C6B88610070F53F /* QuickSort3Ways.swift */; };
+		193376581C6B88610070F53F /* QuickSort3Ways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193376561C6B88610070F53F /* QuickSort3Ways.swift */; };
 		19BCA1421C6A561600B4E182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1411C6A561600B4E182 /* main.swift */; };
 		19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCA1481C6A563C00B4E182 /* Insertion.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,7 @@
 		193376481C6A66D10070F53F /* SwiftAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1933764A1C6A66D10070F53F /* SwiftAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmsTests.swift; sourceTree = "<group>"; };
 		1933764C1C6A66D10070F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193376561C6B88610070F53F /* QuickSort3Ways.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort3Ways.swift; sourceTree = "<group>"; };
 		19BCA13E1C6A561600B4E182 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BCA1411C6A561600B4E182 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		19BCA1481C6A563C00B4E182 /* Insertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insertion.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 				1933762A1C6A58460070F53F /* Utils.swift */,
 				1933763C1C6A5EC50070F53F /* Selection.swift */,
 				193376411C6A63810070F53F /* Quick.swift */,
+				193376561C6B88610070F53F /* QuickSort3Ways.swift */,
 			);
 			path = SwiftAlgorithms;
 			sourceTree = "<group>";
@@ -191,6 +195,7 @@
 				193376521C6A66EE0070F53F /* Selection.swift in Sources */,
 				1933764B1C6A66D10070F53F /* SwiftAlgorithmsTests.swift in Sources */,
 				193376531C6A66F10070F53F /* Quick.swift in Sources */,
+				193376581C6B88610070F53F /* QuickSort3Ways.swift in Sources */,
 				193376501C6A66E80070F53F /* Insertion.swift in Sources */,
 				193376511C6A66EB0070F53F /* Utils.swift in Sources */,
 			);
@@ -203,6 +208,7 @@
 				1933763D1C6A5EC50070F53F /* Selection.swift in Sources */,
 				19BCA1491C6A563C00B4E182 /* Insertion.swift in Sources */,
 				193376421C6A63810070F53F /* Quick.swift in Sources */,
+				193376571C6B88610070F53F /* QuickSort3Ways.swift in Sources */,
 				19BCA1421C6A561600B4E182 /* main.swift in Sources */,
 				1933762B1C6A58460070F53F /* Utils.swift in Sources */,
 			);
