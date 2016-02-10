@@ -14,6 +14,11 @@ while let a = readLine(stripNewline: true){
     array.append(Int(a)!)
 }
 
+
 QuickSort3Ways.sort(&array)
 
 
+
+for element in array{
+    print(element)
+}

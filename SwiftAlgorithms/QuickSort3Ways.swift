@@ -19,12 +19,12 @@ public struct QuickSort3Ways {
         }
         var (lt, gt) = (lo, hi)
         var i = lt
-        let v = a[lo]
+        let pivot = a[lo + (hi - lo) / 2]
         while (i <= gt){
-            if a[i] < v {
+            if a[i] < pivot {
                 Utils.exchange(&a, i++, lt++)
             }
-            else if a[i] > v{
+            else if a[i] > pivot{
                 Utils.exchange(&a, i, gt--)
             }
             else {
